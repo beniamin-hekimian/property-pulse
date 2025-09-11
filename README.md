@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Property Pulse 🏡
 
-## Getting Started
+A full-stack web application to help you find your next rental property. Built with **Next.js** and **MongoDB**.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Live Preview 🌍
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 [Live Demo](https://property-pulse-by-beniamin.vercel.app)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features ✅
 
-## Learn More
+1. 🔐 User authentication with **Google & NextAuth**  
+2. 👤 User **profiles** with personal listings  
+3. 🏘️ Property Listing **CRUD**  
+4. 🖼️ Multiple property **image uploads**  
+5. 💬 Internal **messaging** between users  
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Mockup 📸
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![screenshot](./public/images/mockup.jpg)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## What I Learned 📚
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1️⃣ **Next.js & Full-Stack Development**  
+   - Built API routes for CRUD operations.  
+   - Implemented **authentication & authorization** with NextAuth.  
+
+2️⃣ **File & Media Handling**  
+   - Integrated **Cloudinary** for image uploads.  
+   - Configured property image galleries with **Photoswipe**.  
+
+3️⃣ **Advanced Features**  
+   - Developed property **search functionality**.  
+   - Implemented **notifications** for internal messages.  
+
+4️⃣ **UI & UX Enhancements**  
+   - Toast notifications, spinners, and custom error pages.  
+   - Responsive layout with **Tailwind CSS**.  
+
+5️⃣ **Deployment & Configuration**  
+   - Managed environment variables for MongoDB, Cloudinary, and Google.  
+   - Prepared `.env` for smooth local and production setup.  
+
+
+## Technologies Used 🛠️
+
+- ⚛️ [Next.js](https://nextjs.org/) & [React](https://reactjs.org/)  
+- 🎨 [Tailwind CSS](https://tailwindcss.com/)  
+- 🗄️ [MongoDB](https://www.mongodb.com/) + [Mongoose](https://mongoosejs.com/)  
+- 🔑 [NextAuth.js](https://next-auth.js.org/)  
+- 🖼️ [Cloudinary](https://cloudinary.com/) & [Photoswipe](https://photoswipe.com/)  
+- 🔄 [React Spinners](https://www.npmjs.com/package/react-spinners)  
+- 🍞 [React Toastify](https://fkhadra.github.io/react-toastify/)  
+- 📤 [React Share](https://www.npmjs.com/package/react-share)  
+- 🎨 [React Icons](https://react-icons.github.io/react-icons/)  
+
+
+## Conclusion 🎉
+
+Developed by **Beniamin Hekimian** as part of the **Next.js 14 From Scratch Course by Traversy Media**.  
+
+Contact for feedback! ✉️
